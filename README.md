@@ -1,6 +1,41 @@
+<div align="center">
+
 # FreeRTOS 实验合集（STM32F407）
 
-STM32F407 + FreeRTOS 课程实验全集：`00` 为可直接复用的工程模板，`01–10` 为按知识点递进的十节课实验。每个子目录都是一个独立的 Keil MDK 工程，可单独打开、编译、烧录。
+**十节课，一个模板：从建任务到队列，每个实验都能单独编译、单独烧录、单独观察**
+
+![platform](https://img.shields.io/badge/platform-STM32F407ZGT6-0b5cad?style=flat-square)
+![toolchain](https://img.shields.io/badge/toolchain-Keil%20MDK%205.36%2B-1f6feb?style=flat-square)
+![rtos](https://img.shields.io/badge/RTOS-FreeRTOS%2010.3-2496ed?style=flat-square)
+![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![last commit](https://img.shields.io/github/last-commit/xhtfps/freertos-labs?style=flat-square)
+
+[快速开始](#3-快速开始) · [实验对照表](#4-实验与知识点对照) · [全部仓库索引](https://github.com/xhtfps/xhtfps)
+
+</div>
+
+## 为什么按实验编号组织
+
+FreeRTOS 的难点不在概念，而在**每个 API 的副作用**：动态创建会不会把堆吃光、挂起期间打印为什么停了、时间片到底切了没有。这里把每个知识点拆成一个独立工程，改一行、烧一次、看一眼现象，而不是塞进一个越写越乱的大工程。
+
+## 亮点
+
+- **00 模板 + 01–10 实验**：模板可直接复用做新工程，十节课各带 `User/` `Drivers/` `Middlewares/` 固定分层。
+- **每节课都有观察点**：对照表里写清「关键 API → 该看什么现象」，不是跑通就算完。
+- **命令行也能编译**：给出 `UV4.exe -b` 的构建命令，便于脚本化验证。
+- **仓库干净**：`Output/`、`*.uvguix.*`、`JLinkLog.txt` 全部在 `.gitignore` 里，clone 下来没有别人的垃圾。
+
+## 结构
+
+```mermaid
+flowchart LR
+  T["00 工程模板<br/>HAL + FreeRTOS + BSP"] --> L1["01–04<br/>任务·中断"]
+  T --> L2["05–07<br/>列表·调度·状态"]
+  T --> L3["08–10<br/>统计·延时·队列"]
+  L1 --> HW["STM32F407 板卡<br/>LED / 串口 / AD9959"]
+  L2 --> HW
+  L3 --> HW
+```
 
 ## 1. 软硬件环境
 
@@ -80,3 +115,19 @@ freertos-labs/
 - 生成文件（`Output/`、`Objects/`、`Listings/`、`*.uvguix.*`、`JLinkLog.txt`、`keil_build.log`）一律不入库，见 `.gitignore`。
 - 原独立仓库 `01_…`～`10_…` 与 `freertos_project_template` 已并入本仓库（按文件内容逐一比对，无遗漏源码），原仓库已归档不再维护。
 - 新增实验：复制 `00_freertos_project_template`，按 `NN_<实验名>` 命名并补充上表。
+## 路线图
+
+- [x] 十个实验与模板并入同一仓库，按内容逐一比对无源码遗漏
+- [x] 生成物清理与 `.gitignore` 兜底
+- [ ] 给 08 运行时间统计补一版「串口表格输出」示例
+- [ ] 把 AD9959 / PS2 等 BSP 依赖收敛到 `bsp-libs`
+
+## 参与与反馈
+
+- 遇到问题请走 [Issue 模板](.github/ISSUE_TEMPLATE)，附上实验编号与完整编译日志。
+- 提 PR 前先读 [CONTRIBUTING.md](CONTRIBUTING.md)；安全问题按 [SECURITY.md](SECURITY.md) 私下反馈。
+- 如果这个仓库帮你省过时间，点个 ⭐ 是最省事的支持。
+
+## 许可证
+
+本仓自写代码以 [MIT](LICENSE) 分发；FreeRTOS 内核与 ST HAL 按各自许可证使用。
