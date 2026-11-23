@@ -1,0 +1,348 @@
+{
+  "ascent": 14,
+  "descent": -2,
+  "typoAscent": 14,
+  "typoDescent": -2,
+  "typoLineGap": 0,
+  "size": 16,
+  "glyphs": [
+    {
+      "code": 20013,
+      "advanceWidth": 16.000030517578125,
+      "bbox": {
+        "x": 2,
+        "y": -1,
+        "width": 13,
+        "height": 15
+      },
+      "kerning": {},
+      "freetype": {
+        "glyph_index": 8805,
+        "metrics": {
+          "width": 15,
+          "height": 15,
+          "horiBearingX": 1,
+          "horiBearingY": 14,
+          "horiAdvance": 16,
+          "vertBearingX": -7,
+          "vertBearingY": 1,
+          "vertAdvance": 16
+        },
+        "linearHoriAdvance": 16.000030517578125,
+        "linearVertAdvance": 16.000030517578125,
+        "advance": {
+          "x": 16,
+          "y": 0
+        },
+        "bitmap": {
+          "width": 13,
+          "rows": 15,
+          "pitch": 2,
+          "num_grays": 256,
+          "pixel_mode": 1,
+          "palette_mode": 0
+        },
+        "bitmap_left": 2,
+        "bitmap_top": 14,
+        "lsb_delta": 0,
+        "rsb_delta": 0
+      }
+    },
+    {
+      "code": 24133,
+      "advanceWidth": 16.000030517578125,
+      "bbox": {
+        "x": 1,
+        "y": -1,
+        "width": 14,
+        "height": 14
+      },
+      "kerning": {},
+      "freetype": {
+        "glyph_index": 12898,
+        "metrics": {
+          "width": 15,
+          "height": 16,
+          "horiBearingX": 1,
+          "horiBearingY": 14,
+          "horiAdvance": 16,
+          "vertBearingX": -7,
+          "vertBearingY": 1,
+          "vertAdvance": 16
+        },
+        "linearHoriAdvance": 16.000030517578125,
+        "linearVertAdvance": 16.000030517578125,
+        "advance": {
+          "x": 16,
+          "y": 0
+        },
+        "bitmap": {
+          "width": 14,
+          "rows": 14,
+          "pitch": 2,
+          "num_grays": 256,
+          "pixel_mode": 1,
+          "palette_mode": 0
+        },
+        "bitmap_left": 1,
+        "bitmap_top": 13,
+        "lsb_delta": 0,
+        "rsb_delta": 0
+      }
+    },
+    {
+      "code": 24230,
+      "advanceWidth": 16.000030517578125,
+      "bbox": {
+        "x": 0,
+        "y": -2,
+        "width": 15,
+        "height": 16
+      },
+      "kerning": {},
+      "freetype": {
+        "glyph_index": 12995,
+        "metrics": {
+          "width": 16,
+          "height": 16,
+          "horiBearingX": 0,
+          "horiBearingY": 14,
+          "horiAdvance": 16,
+          "vertBearingX": -8,
+          "vertBearingY": 1,
+          "vertAdvance": 16
+        },
+        "linearHoriAdvance": 16.000030517578125,
+        "linearVertAdvance": 16.000030517578125,
+        "advance": {
+          "x": 16,
+          "y": 0
+        },
+        "bitmap": {
+          "width": 15,
+          "rows": 16,
+          "pitch": 2,
+          "num_grays": 256,
+          "pixel_mode": 1,
+          "palette_mode": 0
+        },
+        "bitmap_left": 0,
+        "bitmap_top": 14,
+        "lsb_delta": 0,
+        "rsb_delta": 0
+      }
+    },
+    {
+      "code": 25991,
+      "advanceWidth": 16.000030517578125,
+      "bbox": {
+        "x": 1,
+        "y": -1,
+        "width": 14,
+        "height": 15
+      },
+      "kerning": {},
+      "freetype": {
+        "glyph_index": 14750,
+        "metrics": {
+          "width": 16,
+          "height": 16,
+          "horiBearingX": 0,
+          "horiBearingY": 14,
+          "horiAdvance": 16,
+          "vertBearingX": -8,
+          "vertBearingY": 1,
+          "vertAdvance": 16
+        },
+        "linearHoriAdvance": 16.000030517578125,
+        "linearVertAdvance": 16.000030517578125,
+        "advance": {
+          "x": 16,
+          "y": 0
+        },
+        "bitmap": {
+          "width": 14,
+          "rows": 15,
+          "pitch": 2,
+          "num_grays": 256,
+          "pixel_mode": 1,
+          "palette_mode": 0
+        },
+        "bitmap_left": 1,
+        "bitmap_top": 14,
+        "lsb_delta": 0,
+        "rsb_delta": 0
+      }
+    },
+    {
+      "code": 27969,
+      "advanceWidth": 16.000030517578125,
+      "bbox": {
+        "x": 1,
+        "y": -1,
+        "width": 14,
+        "height": 14
+      },
+      "kerning": {},
+      "freetype": {
+        "glyph_index": 16722,
+        "metrics": {
+          "width": 16,
+          "height": 16,
+          "horiBearingX": 0,
+          "horiBearingY": 14,
+          "horiAdvance": 16,
+          "vertBearingX": -8,
+          "vertBearingY": 1,
+          "vertAdvance": 16
+        },
+        "linearHoriAdvance": 16.000030517578125,
+        "linearVertAdvance": 16.000030517578125,
+        "advance": {
+          "x": 16,
+          "y": 0
+        },
+        "bitmap": {
+          "width": 14,
+          "rows": 14,
+          "pitch": 2,
+          "num_grays": 256,
+          "pixel_mode": 1,
+          "palette_mode": 0
+        },
+        "bitmap_left": 1,
+        "bitmap_top": 13,
+        "lsb_delta": 0,
+        "rsb_delta": 0
+      }
+    },
+    {
+      "code": 27979,
+      "advanceWidth": 16.000030517578125,
+      "bbox": {
+        "x": 1,
+        "y": -1,
+        "width": 14,
+        "height": 14
+      },
+      "kerning": {},
+      "freetype": {
+        "glyph_index": 16732,
+        "metrics": {
+          "width": 15,
+          "height": 15,
+          "horiBearingX": 0,
+          "horiBearingY": 14,
+          "horiAdvance": 16,
+          "vertBearingX": -8,
+          "vertBearingY": 1,
+          "vertAdvance": 16
+        },
+        "linearHoriAdvance": 16.000030517578125,
+        "linearVertAdvance": 16.000030517578125,
+        "advance": {
+          "x": 16,
+          "y": 0
+        },
+        "bitmap": {
+          "width": 14,
+          "rows": 14,
+          "pitch": 2,
+          "num_grays": 256,
+          "pixel_mode": 1,
+          "palette_mode": 0
+        },
+        "bitmap_left": 1,
+        "bitmap_top": 13,
+        "lsb_delta": 0,
+        "rsb_delta": 0
+      }
+    },
+    {
+      "code": 30452,
+      "advanceWidth": 16.000030517578125,
+      "bbox": {
+        "x": 1,
+        "y": -1,
+        "width": 14,
+        "height": 15
+      },
+      "kerning": {},
+      "freetype": {
+        "glyph_index": 19192,
+        "metrics": {
+          "width": 16,
+          "height": 16,
+          "horiBearingX": 0,
+          "horiBearingY": 14,
+          "horiAdvance": 16,
+          "vertBearingX": -8,
+          "vertBearingY": 1,
+          "vertAdvance": 16
+        },
+        "linearHoriAdvance": 16.000030517578125,
+        "linearVertAdvance": 16.000030517578125,
+        "advance": {
+          "x": 16,
+          "y": 0
+        },
+        "bitmap": {
+          "width": 14,
+          "rows": 15,
+          "pitch": 2,
+          "num_grays": 256,
+          "pixel_mode": 1,
+          "palette_mode": 0
+        },
+        "bitmap_left": 1,
+        "bitmap_top": 14,
+        "lsb_delta": 0,
+        "rsb_delta": 0
+      }
+    },
+    {
+      "code": 35797,
+      "advanceWidth": 16.000030517578125,
+      "bbox": {
+        "x": 0,
+        "y": -1,
+        "width": 16,
+        "height": 15
+      },
+      "kerning": {},
+      "freetype": {
+        "glyph_index": 24519,
+        "metrics": {
+          "width": 16,
+          "height": 15,
+          "horiBearingX": 0,
+          "horiBearingY": 14,
+          "horiAdvance": 16,
+          "vertBearingX": -8,
+          "vertBearingY": 1,
+          "vertAdvance": 16
+        },
+        "linearHoriAdvance": 16.000030517578125,
+        "linearVertAdvance": 16.000030517578125,
+        "advance": {
+          "x": 16,
+          "y": 0
+        },
+        "bitmap": {
+          "width": 16,
+          "rows": 15,
+          "pitch": 2,
+          "num_grays": 256,
+          "pixel_mode": 1,
+          "palette_mode": 0
+        },
+        "bitmap_left": 0,
+        "bitmap_top": 14,
+        "lsb_delta": 0,
+        "rsb_delta": 0
+      }
+    }
+  ],
+  "underlinePosition": -2,
+  "underlineThickness": 1
+}
